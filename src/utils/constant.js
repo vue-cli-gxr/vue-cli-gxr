@@ -5,9 +5,11 @@ const DEFAULTS = {
     registry: 'vue-cli-gxr',
     type: 'orgs'
 }
+const DOWNLOAD = `template`
 module.exports = {
     version,
     DEFAULTS,
-    RC
+    RC,
+    DOWNLOAD
 }
-export const DOWNLOAD = `${HOME}/.template`
+// export const DOWNLOAD = `${HOME}/.template`

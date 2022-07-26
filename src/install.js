@@ -1,7 +1,6 @@
 import { repoList, tagList, downloadLocal } from './utils/git'
 import ora from 'ora'
 import inquirer from 'inquirer'
-import { version } from 'punycode';
 const install = async () => {
     let loading = ora('featching 模版...')
     loading.start()

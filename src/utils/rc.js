@@ -42,6 +42,7 @@ export const remove = async (k) => {
 }
 export const getAll = async () => {
     const has = await exists(constant.RC)
+
     let opts;
     if(has) {
         opts = await readFile(constant.RC,'utf8')

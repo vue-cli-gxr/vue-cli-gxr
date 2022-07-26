@@ -26,7 +26,6 @@ export const tagList = async (repo) => {
 }
 export const repoList = async () => {
   let config = await getAll()
-  console.log(config)
   let api = `https://api.github.com/${config.type}/${config.registry}/repos`
   return await fetch(api)
 }
@@ -36,6 +35,7 @@ export const download = async (src,dest) => {
       if(err) {
         reject(err)
       }
+      console.log(src,dest)
       resolve()
     })
   })
