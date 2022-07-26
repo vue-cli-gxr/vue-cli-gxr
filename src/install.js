@@ -6,7 +6,6 @@ const install = async () => {
     let loading = ora('featching 模版...')
     loading.start()
     let list = await repoList()
-    console.log(list)
     loading.succeed()
     list = list.map( ({ name }) => name)
     let answer = await inquirer.prompt([{

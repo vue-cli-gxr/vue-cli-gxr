@@ -12,7 +12,7 @@ let actionMap = {
   },
   config: {
     // alias: 'c',
-    description: 'config .testrc',
+    description: 'config .gxrrc',
     examples: [
       'vue-cli-gxr config set <k> <v>',
       'vue-cli-gxr config get <k>',

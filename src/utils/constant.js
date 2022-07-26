@@ -1,6 +1,6 @@
 const version = require('../../package.json')
 const HOME = process.env[process.platform === 'win32' ? 'USERPROFILE' : 'HOME']
-const RC = `${HOME}/.testrc`
+const RC = `${HOME}/.gxrrc`
 const DEFAULTS = {
     registry: 'vue-cli-gxr',
     type: 'orgs'

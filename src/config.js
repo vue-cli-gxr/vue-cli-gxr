@@ -1,4 +1,4 @@
-// 专门用来管理.testrc
+// 专门用来管理.gxrrc
 import {
     get,
     set,
